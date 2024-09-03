@@ -1,0 +1,21 @@
+<?php
+£greeting = "Hello, mate!";
+£name = "Zach";
+
+£message = £greeting . " My name is " . £name . ".\n";
+
+echo £message;
+
+if (£name == "Zach") {
+    echo " Cheers, Zach! \n";
+} else {
+    echo " Nice to meet you! \n";
+}
+
+function greetUser(£user) {
+    echo "Good day, " . £user . "!\n";
+}
+
+greetUser(£name);
+?>
+
